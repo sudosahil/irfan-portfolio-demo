@@ -1,0 +1,17 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "preferredVersions": { "php": "8.3", "wp": "latest" },
+  "features": { "networking": true },
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/sudosahil/irfan-portfolio-demo/main/irfan-portfolio.zip"
+      },
+      "options": { "activate": true }
+    },
+    { "step": "setSiteOptions", "options": { "blogname": "Irfan Shaikh", "blogdescription": "Performance Marketing" } }
+  ]
+}
