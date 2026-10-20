@@ -5,6 +5,11 @@
   "features": { "networking": true },
   "steps": [
     {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/demo-hide-admin-bar.php",
+      "data": "<?php add_filter( 'show_admin_bar', '__return_false' );"
+    },
+    {
       "step": "installTheme",
       "themeData": {
         "resource": "url",
