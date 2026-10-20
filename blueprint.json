@@ -13,7 +13,7 @@
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/sudosahil/irfan-portfolio-demo/main/irfan-portfolio.zip"
+        "url": "https://raw.githubusercontent.com/sudosahil/irfan-portfolio-demo/539ec24098d0de15642d4bd18f104e6ff87e27b1/irfan-portfolio.zip"
       },
       "options": { "activate": true }
     },
